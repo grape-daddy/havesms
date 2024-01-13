@@ -29,6 +29,6 @@ class SMS
         $response = curl_exec($curl);
 
         curl_close($curl);
-        return $response;
+        return json_encode(json_decode($response, true), JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
     }
 }
