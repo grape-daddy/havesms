@@ -1,4 +1,6 @@
+
 ## HaveSMS API
+
 [https://www.havesms.co.th](https://www.havesms.co.th)
 
 ## การใช้งาน
@@ -16,7 +18,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Ksnth\HaveSMS\SMS;
 
 $sms = new SMS([
-    'token'   => '',
+    'token'   => 'Api Tokens form HaveSMS',
 ]);
 
 echo $sms->balance();
