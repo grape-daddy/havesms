@@ -1,5 +1,5 @@
 <?php
-namespace HaveSMS;
+namespace Ksnth\HaveSMS;
 class SMS 
 {
     private $config;
