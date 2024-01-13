@@ -1,10 +1,7 @@
 ## PHP - HaveSMS
 
 ## HaveSMS API
-
-### เลือก SMS Package
-
-[https://www.havesms.co.th](https://www.havesms.co.th)
+(https://www.havesms.co.th "HaveSMS")
 
 ## การใช้งาน
 
