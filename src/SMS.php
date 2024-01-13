@@ -11,13 +11,20 @@ class SMS
 
     public function balance()
     {
-        $client = new GuzzleHttp();
+        $curl = curl_init();
 
-        return $client->get('https://havesms.co.th/api/sms/balance', [
-            'headers' => [
-                'host' => 'havesms.co.th',
-                'Authorization' => 'Bearer ' . $this->config['token'],
-            ]
-        ]);
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://havesms.co.th/api/sms/balance',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_HTTPHEADER => array(
+                'Authorization: Bearer ' . $this->config['token']
+            ),
+        ));
     }
 }
