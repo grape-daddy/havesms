@@ -2,5 +2,5 @@
 
 ### ติดตั้งผ่าน Composer
 ```
-composer require farzai/phone-verification
+composer require ksnth/havesms
 ```
