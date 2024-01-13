@@ -4,7 +4,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Ksnth\HaveSMS\SMS;
 
 $sms = new SMS([
-    'token'   => '',
+    'token'   => 'Api Tokens form HaveSMS',
 ]);
 
 echo $sms->balance();

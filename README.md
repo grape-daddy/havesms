@@ -1,3 +1,6 @@
+## HaveSMS API
+[https://www.havesms.co.th/](https://www.havesms.co.th/)
+
 ## การใช้งาน
 
 ### ติดตั้งผ่าน Composer
