@@ -19,5 +19,12 @@
             "name": "Komsan Nurak",
             "email": "code@ksn.in.th"
         }
+    ],
+    "homepage": "https://www.ksn.in.th/",
+    "funding": [
+        {
+            "type": "Support me",
+            "url": "https://www.buymeacoffee.com/ksn.th"
+        }
     ]
 }
