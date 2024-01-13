@@ -4,3 +4,17 @@
 ```
 composer require ksnth/havesms
 ```
+
+### ขั้นตอนการใช้งาน
+### Check Balance
+```php
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Ksnth\HaveSMS\SMS;
+
+$sms = new SMS([
+    'token'   => '',
+]);
+
+echo $sms->balance();
+```

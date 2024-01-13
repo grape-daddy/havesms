@@ -26,5 +26,9 @@ class SMS
                 'Authorization: Bearer ' . $this->config['token']
             ),
         ));
+        $response = curl_exec($curl);
+
+        curl_close($curl);
+        return $response;
     }
 }
