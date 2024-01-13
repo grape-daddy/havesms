@@ -1,7 +1,7 @@
 ## PHP - HaveSMS
 
 ## HaveSMS API
-(https://www.havesms.co.th "HaveSMS")
+(https://www.havesms.co.th)
 
 ## การใช้งาน
 
